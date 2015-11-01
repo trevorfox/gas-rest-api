@@ -28,8 +28,8 @@ function formatProduct(rowData){
 
 function doGet(request) {
   // Check for a valid request URI
-  if (request.paramter.action !== undefined){
-    if (request.paramter.prodid !== undefined){
+  if (request.parameter.action !== undefined){
+    if (request.parameter.prodid !== undefined){
       prodIds = request.parameters.prodid
       
       // The object to be returned as JSON
